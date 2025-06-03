@@ -72,7 +72,7 @@ const WelcomeSection: React.FC = () => {
           transition={{ duration: 1, delay: 0.5 }}
           className="font-script text-5xl md:text-7xl text-white mb-6 leading-tight"
         >
-          Happy 26th Birthday
+          Feliz aniversário de 26 anos, Menina Larissa
         </motion.h1>
         
         <motion.div
@@ -82,7 +82,7 @@ const WelcomeSection: React.FC = () => {
           className="flex items-center justify-center gap-2 mb-8"
         >
           <Heart className="w-5 h-5 fill-red-500 text-red-500" />
-          <h2 className="font-sans text-2xl text-white font-light">to my amazing girlfriend</h2>
+          <h2 className="font-sans text-2xl text-white font-light">Para a minha namorada incrível</h2>
           <Heart className="w-5 h-5 fill-red-500 text-red-500" />
         </motion.div>
         
@@ -92,8 +92,9 @@ const WelcomeSection: React.FC = () => {
           transition={{ duration: 1, delay: 1.5 }}
           className="text-white/90 font-sans max-w-2xl mx-auto mb-12 text-lg"
         >
-          Here's to celebrating the most wonderful person I know. 
-          You light up my world in ways I never thought possible.
+          Um brinde à pessoa mais maravilhosa que eu conheço.  
+        Você ilumina o meu mundo de formas que eu nunca imaginei ser possível.
+
         </motion.p>
         
         <motion.div
