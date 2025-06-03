@@ -10,17 +10,21 @@ const MessageSection: React.FC = () => {
     threshold: 0.1,
   });
 
-  const personalMessage = `My dearest, 
+  const personalMessage = `Ma belle Menina Larisssa,
 
-As you turn 26 today, I wanted to take a moment to tell you just how special you are to me. Your smile brightens my darkest days, your laugh is my favorite sound in the world, and your heart is the most beautiful thing I've ever known.
+En ce jour où tu fêtes tes 26 ans, je voulais prendre un moment pour te dire à quel point tu es spécial pour moi. Ton sourire éclaire mes journées les plus sombres, ton rire est le son que je préfère au monde, et ton cœur est la plus belle chose que j’aie jamais connue.
 
-Every day with you is a gift. Your kindness, your strength, your passion for life - all of these things make you the incredible person that you are. I'm so grateful that our paths crossed and that I get to be a part of your journey.
+Chaque jour à tes côtés est un cadeau. Ta gentillesse, ta force, ta passion pour la vie — tout cela fait de toi une personne incroyable. Je suis tellement reconnaissant(e) que nos chemins se soient croisés et de pouvoir faire partie de ton voyage.
 
-May this year bring you all the happiness, success, and love that you deserve. May your dreams come true and your heart be full. And know that I'll be right there beside you, cheering you on, supporting you, and loving you every step of the way.
+Que cette année t’apporte tout le bonheur, le succès et l’amour que tu mérites. Que tes rêves se réalisent et que ton cœur soit rempli. Et sache que je serai là, à tes côtés, pour t’encourager, te soutenir et t’aimer à chaque étape.
 
-Happy Birthday, my love. Here's to many more birthdays together.
+Joyeux anniversaire, mon amour. À encore de nombreux anniversaires ensemble.
 
-With all my heart,`;
+De tout mon cœur.
+
+Je t'aime Larissa, hehe! Bonne fête de 26 :)
+
+`;
 
   return (
     <section id="message" className="py-24 bg-gradient-to-b from-primary-50 to-white">
