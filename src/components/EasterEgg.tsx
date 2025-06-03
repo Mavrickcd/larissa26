@@ -85,40 +85,41 @@ const EasterEgg: React.FC = () => {
                   <Gift className="w-10 h-10 text-accent-500" />
                 </div>
                 
-                <h3 className="font-script text-3xl text-accent-700 mb-4">A Special Gift For You</h3>
+                <h3 className="font-script text-3xl text-accent-700 mb-4">AUm Presente Especial Para Você</h3>
                 
                 <p className="font-sans text-gray-700 mb-6">
-                  26 reasons why you're the most amazing person I know and why I'm so lucky to have you in my life...
+                  26 razões pelas quais você é a pessoa mais incrível que eu conheço e por que sou tão sortudo(a) por ter você na minha vida...
                 </p>
                 
                 <div className="max-h-60 overflow-y-auto text-left p-4 bg-accent-50 rounded-lg mb-6">
                   <ol className="list-decimal pl-5 space-y-2 font-sans text-gray-700">
-                    <li>Your beautiful smile that lights up any room</li>
-                    <li>Your kindness toward everyone you meet</li>
-                    <li>Your incredible sense of humor</li>
-                    <li>Your passion for the things you love</li>
-                    <li>The way you always know how to make me feel better</li>
-                    <li>Your intelligence and curiosity about the world</li>
-                    <li>Your creativity that inspires me</li>
-                    <li>Your thoughtfulness in the little things</li>
-                    <li>Your strength in facing challenges</li>
-                    <li>The way your eyes crinkle when you laugh</li>
-                    <li>Your gentleness and compassion</li>
-                    <li>Your adorable excitement over small joys</li>
-                    <li>Your dedication to your goals</li>
-                    <li>The comfort I feel just being near you</li>
-                    <li>Your honesty and integrity</li>
-                    <li>The way you dance like nobody's watching</li>
-                    <li>Your amazing cooking skills</li>
-                    <li>The perfect hugs you give</li>
-                    <li>Your patience with me when I need it most</li>
-                    <li>The sound of your laughter</li>
-                    <li>Your unique perspective on life</li>
-                    <li>The way you care for others</li>
-                    <li>Your ability to find beauty in everything</li>
-                    <li>The peace I feel when I'm with you</li>
-                    <li>Your supportiveness in all my endeavors</li>
-                    <li>Simply being you - the person I adore more than anyone</li>
+                   <li>Seu sorriso lindo que ilumina qualquer ambiente</li>
+                    <li>Sua gentileza com todos que encontra</li>
+                    <li>Seu incrível senso de humor</li>
+                    <li>Sua paixão pelas coisas que você ama</li>
+                    <li>O jeito como sempre sabe me fazer sentir melhor</li>
+                    <li>Sua inteligência e curiosidade sobre o mundo</li>
+                    <li>Sua criatividade que me inspira</li>
+                    <li>Seu carinho nos pequenos gestos</li>
+                    <li>Sua força ao enfrentar desafios</li>
+                    <li>O jeito que seus olhos se apertam quando você ri</li>
+                    <li>Sua doçura e compaixão</li>
+                    <li>Seu entusiasmo adorável com pequenas alegrias</li>
+                    <li>Sua dedicação aos seus objetivos</li>
+                    <li>O conforto que sinto só de estar perto de você</li>
+                    <li>Sua honestidade e integridade</li>
+                    <li>O jeito que você dança como se ninguém estivesse olhando</li>
+                    <li>Seu talento incrível na cozinha</li>
+                    <li>Os abraços perfeitos que você dá</li>
+                    <li>Sua paciência comigo quando mais preciso</li>
+                    <li>O som da sua risada</li>
+                    <li>Sua perspectiva única sobre a vida</li>
+                    <li>O jeito como você cuida dos outros</li>
+                    <li>Sua capacidade de encontrar beleza em tudo</li>
+                    <li>A paz que sinto quando estou com você</li>
+                    <li>Seu apoio em tudo o que faço</li>
+                    <li>Simplesmente ser você – a pessoa que eu mais adoro</li>
+
                   </ol>
                 </div>
                 
