@@ -119,6 +119,12 @@ const EasterEgg: React.FC = () => {
                     <li>A paz que sinto quando estou com você</li>
                     <li>Seu apoio em tudo o que faço</li>
                     <li>Simplesmente ser você – a pessoa que eu mais adoro</li>
+                    <li>E para o seu presente não digital:  
+                    Estou te oferecendo um ingresso para um espetáculo, para criarmos mais uma lembrança juntos.  
+                    Como já temos muitas memórias e experiências lindas em vários países, vou deixar você escolher.  
+                    Pensei em um show de comédia, porque acho muito engraçado quando você ri, ou talvez um espetáculo — mas não na mesma época que o FEQ.  
+                    Tem várias opções na internet :)
+                    </li>
 
                   </ol>
                 </div>
