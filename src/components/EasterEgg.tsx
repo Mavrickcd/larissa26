@@ -124,7 +124,7 @@ const EasterEgg: React.FC = () => {
                 </div>
                 
                 <p className="font-sans text-accent-700 italic">
-                  "Here's to 26 amazing years of you making the world a better place, and to many more years of happiness ahead."
+                  "Um brinde a 26 anos incríveis de você tornando o mundo um lugar melhor, e a muitos mais anos de felicidade pela frente."
                 </p>
               </div>
             </motion.div>
