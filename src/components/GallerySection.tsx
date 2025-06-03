@@ -7,39 +7,39 @@ import { Camera } from 'lucide-react';
 const photos = [
   {
     id: 1,
-    url: "https://drive.google.com/uc?export=view&id=1oWw3hbb0T1Pd4Y97IvoxMFLQu1r3_Otg",
+    url: "https://i.imgur.com/Vdx6kDf.jpg",
     alt: {
-      en: "Adventure memory 1",
-      fr: "Souvenir d'aventure 1",
-      pt: "Memória de aventura 1",
+      en: "Memory 1",
+      fr: "Souvenir 1",
+      pt: "Memória 1",
     },
     caption: {
-      en: "One of our favorite adventures",
-      fr: "L'une de nos aventures préférées",
-      pt: "Uma das nossas aventuras favoritas",
+      en: "Sunshine and smiles",
+      fr: "Soleil et sourires",
+      pt: "Sol e sorrisos",
     },
   },
   {
     id: 2,
-    url: "https://drive.google.com/uc?export=view&id=1t3N83gUHfun76RIPatyUZmLvgui1Qh2k",
+    url: "https://i.imgur.com/cvwBVc3.jpg",
     alt: {
-      en: "Adventure memory 2",
-      fr: "Souvenir d'aventure 2",
-      pt: "Memória de aventura 2",
+      en: "Memory 2",
+      fr: "Souvenir 2",
+      pt: "Memória 2",
     },
     caption: {
-      en: "Laughs and sunshine",
-      fr: "Rires et soleil",
-      pt: "Risadas e sol",
+      en: "Adventure time",
+      fr: "Moment d’aventure",
+      pt: "Hora da aventura",
     },
   },
   {
     id: 3,
-    url: "https://drive.google.com/uc?export=view&id=1qeBLa-Nxd2nrFZGCiz3yRLe5EjNlabon",
+    url: "https://i.imgur.com/PZUKgyP.jpg",
     alt: {
-      en: "Adventure memory 3",
-      fr: "Souvenir d'aventure 3",
-      pt: "Memória de aventura 3",
+      en: "Memory 3",
+      fr: "Souvenir 3",
+      pt: "Memória 3",
     },
     caption: {
       en: "Our sweet moments",
@@ -49,72 +49,30 @@ const photos = [
   },
   {
     id: 4,
-    url: "https://drive.google.com/uc?export=view&id=1GnDStAfguvKpbjVLPU5R9kkBec4c6RvD",
+    url: "https://i.imgur.com/sFoZVXo.jpg",
     alt: {
-      en: "Adventure memory 4",
-      fr: "Souvenir d'aventure 4",
-      pt: "Memória de aventura 4",
+      en: "Memory 4",
+      fr: "Souvenir 4",
+      pt: "Memória 4",
     },
     caption: {
-      en: "Together around the world",
-      fr: "Ensemble autour du monde",
-      pt: "Juntos ao redor do mundo",
+      en: "One of our favorite views",
+      fr: "L’une de nos vues préférées",
+      pt: "Uma das nossas vistas favoritas",
     },
   },
   {
     id: 5,
-    url: "https://drive.google.com/uc?export=view&id=13C4j1KvPr7EGXC4UeN2isZp2NU_MJDVO",
+    url: "https://i.imgur.com/I1FtfM8.jpg",
     alt: {
-      en: "Adventure memory 5",
-      fr: "Souvenir d'aventure 5",
-      pt: "Memória de aventura 5",
+      en: "Memory 5",
+      fr: "Souvenir 5",
+      pt: "Memória 5",
     },
     caption: {
-      en: "A day to remember",
-      fr: "Un jour à se rappeler",
-      pt: "Um dia para lembrar",
-    },
-  },
-  {
-    id: 6,
-    url: "https://drive.google.com/uc?export=view&id=1PqIxF9qpkVHhE9qXzi2gsArI3ZuziR-6",
-    alt: {
-      en: "Adventure memory 6",
-      fr: "Souvenir d'aventure 6",
-      pt: "Memória de aventura 6",
-    },
-    caption: {
-      en: "So much love in one photo",
-      fr: "Tellement d’amour en une photo",
-      pt: "Tanto amor em uma foto só",
-    },
-  },
-  {
-    id: 7,
-    url: "https://drive.google.com/uc?export=view&id=1laqRB5P-xukcreuyZBiylYr2ctL1AUpn",
-    alt: {
-      en: "Adventure memory 7",
-      fr: "Souvenir d'aventure 7",
-      pt: "Memória de aventura 7",
-    },
-    caption: {
-      en: "Smiles that say it all",
-      fr: "Des sourires qui en disent long",
-      pt: "Sorrisos que dizem tudo",
-    },
-  },
-  {
-    id: 8,
-    url: "https://drive.google.com/uc?export=view&id=1WbzcO5fpFrLmdPB8aGgTYZ0WNscEjQht",
-    alt: {
-      en: "Adventure memory 8",
-      fr: "Souvenir d'aventure 8",
-      pt: "Memória de aventura 8",
-    },
-    caption: {
-      en: "Just us two, always",
-      fr: "Juste nous deux, pour toujours",
-      pt: "Só nós dois, sempre",
+      en: "So much love",
+      fr: "Tellement d’amour",
+      pt: "Tanto amor",
     },
   },
 ];
@@ -138,9 +96,15 @@ const GallerySection: React.FC<GallerySectionProps> = ({ language }) => {
       <div className="container mx-auto px-4">
         <div className={`text-center mb-16 transition-all duration-1000 ${inView ? 'opacity-100' : 'opacity-0 translate-y-10'}`}>
           <Camera className="w-10 h-10 text-primary-400 mx-auto mb-4" />
-          <h2 className="font-script text-4xl md:text-5xl text-primary-800 mb-4">Our Precious Memories</h2>
+          <h2 className="font-script text-4xl md:text-5xl text-primary-800 mb-4">
+            {language === 'fr' ? 'Nos précieux souvenirs' : language === 'pt' ? 'Nossas memórias preciosas' : 'Our Precious Memories'}
+          </h2>
           <p className="font-sans text-gray-600 max-w-2xl mx-auto">
-            Each moment with you is a treasure I hold close to my heart. Here are some of my favorite memories we've shared together.
+            {language === 'fr'
+              ? "Chaque moment avec toi est un trésor que je garde près de mon cœur. Voici quelques-uns de mes souvenirs préférés que nous avons partagés."
+              : language === 'pt'
+              ? "Cada momento com você é um tesouro que guardo no meu coração. Aqui estão algumas das minhas memórias favoritas que compartilhamos juntos."
+              : "Each moment with you is a treasure I hold close to my heart. Here are some of my favorite memories we've shared together."}
           </p>
         </div>
         
