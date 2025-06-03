@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
         </div>
         
         <p className="font-sans text-primary-100 text-sm">
-          Made with love, just for you. Today and always.
+         C'est ta fête, ta fête à toi toi! Bonne fête Menina :)
         </p>
       </div>
     </footer>
